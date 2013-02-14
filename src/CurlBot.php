@@ -738,7 +738,7 @@ class CurlBot {
 		$channel = curl_init();
 		
 		// Set the global CURL options
-		curl_setopt($channel, CURLOPT_VERBOSE, true); 
+		curl_setopt($channel, CURLOPT_VERBOSE, false); 
 		curl_setopt($channel, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($channel, CURLOPT_COOKIESESSION, true);
 		curl_setopt($channel, CURLOPT_FOLLOWLOCATION, true);
